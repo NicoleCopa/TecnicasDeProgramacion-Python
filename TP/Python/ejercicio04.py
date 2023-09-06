@@ -17,7 +17,7 @@ import math
 
 #Decoracion: Nombre del algorítmo
 print("-------------------------------------------------------")
-print("         EJERCICIO 3: CÁLCULO DE RAÍZ")
+print("         EJERCICIO 4: CÁLCULO DE RAÍZ")
 print("-------------------------------------------------------")
 
 #Entrada
@@ -32,9 +32,9 @@ print("La raíz es:", raiz)
 
 """
 -------------------------------------------------------
-           EJERCICIO 3: CÁLCULO DE POTENCIA
+            EJERCICIO 4: CÁLCULO DE RAÍZ
 -------------------------------------------------------
-Ingrese un número: 5
-Ingrese su exponente: 2
-La potencia del número es: 25
+Ingrese el radicando: 25
+Ingrese el índice: 2
+La potencia del número es: 5
 """

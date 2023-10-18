@@ -1,38 +1,12 @@
-"""
-Escribir un algoritmo que intercambie dos valores ingresados por el usuario. 
-Ejemplo: Si la variable num1 al inicio del algoritmo vale 5 y la variable num2 vale 10, 
-al final del algoritmo num1 debe valer 10 y num2 5. 
-_______________________________________
-ENTRADA                 IDENTIFICADOR
-    Numero 1                num1
-    Numero 2                num2
-SALIDA
-    Número temporal         temp
-_______________________________________
-"""
-#Decoracion: Nombre del algorítmo
-print("-------------------------------------------------------")
-print("         EJERCICIO 2: INTERCAMBIO DE NÚMEROS.")
-print("-------------------------------------------------------")
+"""Escribir un algoritmo que pida al usuario su año de nacimiento y 
+luego muestre en su edad actual."""
 
-#Entrada
-num1 = int(input("Ingrese un número: "))
-num2 = int(input("Ingrese un segundo número: "))
+print("""-------------------------------------------------------
+                EJERCICIO 2: EDAD ACTUAL
+-------------------------------------------------------""")
 
-#Salida
-temp = num1
-num1 = num2
-num2 = temp
+anio_nacimiento = int(input("Ingrese su año de nacimiento: "))
 
-print("El primer número es:", num1)
-print("El segundo número es:", num2)
+edad = 2023 - anio_nacimiento
 
-"""
--------------------------------------------------------
-         EJERCICIO 2: INTERCAMBIO DE NÚMEROS
--------------------------------------------------------
-Ingrese un número: 5
-Ingrese un segundo número: 10
-Primer número: 10
-Segundo número: 5
-"""
+print("Su edad es:", edad)

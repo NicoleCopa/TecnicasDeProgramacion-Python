@@ -1,40 +1,13 @@
-"""
-Escribir un algoritmo que permita al usuario ingresar dos números 
-(el 1er número es el radicando, y el 2do número es el índice) para calcular la raíz y 
-uego le muestre al usuario el resultado de este cálculo. 
-Ejemplo: √25 = 5 (raíz cuadrada de 25, es igual a 5, se deberá permitir al usuario 
-ingresar el 25 y el 2 que actuará de indice)
-_______________________________________
-ENTRADA                 IDENTIFICADOR
-    Numero                  num
-    Exponente               exp
-SALIDA
-    Potencia                pot
-_______________________________________
-"""
-#importamos libreria
-import math
+"""Escribir un programa que calcule el área de un triángulo, dados su base y altura. 
+El usuario debe ingresar la base y la altura."""
 
-#Decoracion: Nombre del algorítmo
-print("-------------------------------------------------------")
-print("         EJERCICIO 4: CÁLCULO DE RAÍZ")
-print("-------------------------------------------------------")
+print("""-------------------------------------------------------
+                EJERCICIO 4: AREA DE UN TRIÁNGULO
+-------------------------------------------------------""")
 
-#Entrada
-rad = int(input("Ingrese el radicando: "))
-ind = int(input("Ingrese el índice: "))
+base = float(input("Ingrese la base del triángulo: "))
+altura = float(input("Ingrese la altura del triángulo: "))
 
-#Proceso
-raiz = rad ** (1/ind)
+area = (base * altura) / 2
 
-#Salida
-print("La raíz es:", raiz)
-
-"""
--------------------------------------------------------
-            EJERCICIO 4: CÁLCULO DE RAÍZ
--------------------------------------------------------
-Ingrese el radicando: 25
-Ingrese el índice: 2
-La potencia del número es: 5
-"""
+print(f"El area del triángulo es {area}")

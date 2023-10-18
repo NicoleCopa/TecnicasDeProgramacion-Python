@@ -1,35 +1,13 @@
-"""
-Escribir un algoritmo que permita al usuario ingresar 2 números y luego le indique el 
-resultado de la multiplicación entre esos dos números
-_______________________________________
-ENTRADA                 IDENTIFICADOR
-    Primer número           num
-    Segundo número          exp
-SALIDA
-    Multiplicación          mult
-_______________________________________
-"""
+"""Escribir un algoritmo que calcule el promedio de tres notas ingresadas por el usuario."""
 
-#Decoracion: Nombre del algorítmo
-print("-------------------------------------------------------")
-print("        EJERCICIO 5: CÁLCULO DE MULTIPLICACIÓN")
-print("-------------------------------------------------------")
+print("""-------------------------------------------------------
+                EJERCICIO 5: PROMEDIO
+-------------------------------------------------------""")
 
-#Entrada
-num1 = int(input("Ingrese un número: "))
-num2 = int(input("Ingrese otro número: "))
+nota1 = float(input("Ingrese la primera nota: "))
+nota2 = float(input("Ingrese la segunda nota: "))
+nota3 = float(input("Ingrese la tercera nota: "))
 
-#Proceso
-mult = num1 * num2
+promedio = (nota1 + nota2 + nota3) / 3
 
-#Salida
-print("La multiplicación entre ambos números es:", mult)
-
-"""
--------------------------------------------------------
-        EJERCICIO 5: CÁLCULO DE MULTIPLICACIÓN
--------------------------------------------------------
-Ingrese un número: 7
-Ingrese otro número: 14
-La multiplicación entre ambos números es: 98
-"""
+print(f"El promedio de las notas ingresadas es {promedio}")

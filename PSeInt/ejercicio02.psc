@@ -1,16 +1,10 @@
 Algoritmo ejercicio02
-	//Entrada
-	Escribir("Ingrese un número:")
-	Leer num1
-	Escribir("Ingrese un segundo número")
-	Leer num2
-	//Proceso
-	temp <- num1
-	num1 <- num2
-	num2 <- temp
-	//Salida
-	Escribir ("El primer número es:")
-	Escribir (num1)
-	Escribir ("El segundo número es:")
-	Escribir (num2)
+	Definir  anio_nacimiento, edad Como Entero
+	
+	Escribir "Ingrese su año de nacimiento:";
+	Leer anio_nacimiento;
+	
+	edad <- 2023 - anio_nacimiento;
+	
+	Escribir "Su edad es: ", edad;
 FinAlgoritmo

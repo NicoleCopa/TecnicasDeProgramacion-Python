@@ -16,3 +16,14 @@ y2 = float(input("Ingrese la coordenada Y2: "))
 coordenada = math.sqrt( ((x2-x1)**2) + ((y2 - y1)**2))
                        
 print(f"La coordenada del plano cartesiano es: {coordenada}")
+
+"""
+-------------------------------------------------------
+                EJERCICIO 7: COORDENADAS
+-------------------------------------------------------
+Ingrese la coordenada X1: 3
+Ingrese la coordenada X2: 6
+Ingrese la coordenada Y1: 2
+Ingrese la coordenada Y2: 8
+La coordenada del plano cartesiano es: 6.708203932499369
+"""

@@ -1,12 +1,10 @@
 Algoritmo ejercicio03
-	//Entrada
-	Escribir ("Ingrese un número")
-	Leer num
-	Escribir ("Ingrese su exponente")
-	Leer expt
-	//Proceso 
-	pot <- num^expt
-	//Salida
-	Escribir ("La potencia del número es:")
-	Escribir (pot)
+	Definir celcius, fahrenheit Como Real
+	
+	Escribir "Ingrese la temperatura en grados Celsius:";
+	Leer celcius;
+	
+	fahrenheit <- (celcius * 1.8) + 32;
+	
+	Escribir "La temperatura en grados Fahrenheit es: ", fahrenheit;
 FinAlgoritmo

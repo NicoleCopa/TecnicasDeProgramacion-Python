@@ -1,12 +1,13 @@
 Algoritmo ejercicio01
-	//Entrada
-	Escribir("Ingrese un número:")
-	Leer num1
-	Escribir("Ingrese un segundo número")
-	Leer num2
-	//Proceso 
-	sum <- num1 + num2
-	//Salida
-	Escribir("El resultado de ambos números es:")
-	Escribir (sum)
+	Definir num1, num2, suma Como Entero;
+	
+	Escribir "Ingrese un número:";
+	Leer num1;
+	
+	Escribir "Ingrese un segundo número:";
+	Leer num2;
+	
+	suma <- num1 + num2;
+	
+	Escribir "El resultado de ambos números es: ", suma;
 FinAlgoritmo

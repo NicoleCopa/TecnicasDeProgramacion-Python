@@ -8,6 +8,6 @@ print("""-------------------------------------------------------)
 num1 = int(input("Ingrese un número: "))
 num2 = int(input("Ingrese un segundo número: "))
 
-sum = num1 + num2
+suma = num1 + num2
 
-print("El resultado de ambos números es:", sum)
+print("El resultado de ambos números es:", suma)

@@ -1,5 +1,4 @@
-"""
-Desarrolle un algoritmo que permita calcular el promedio de las notas que tiene un alumno en
+""" Desarrolle un algoritmo que permita calcular el promedio de las notas que tiene un alumno en
 la materia Técnicas de Programación, teniendo en cuenta que son 2 calificaciones numéricas (2
 parciales) y una calificación valorativa tipo “APROBO-NO APROBO” (trabajo practico)
 
@@ -20,8 +19,7 @@ la promoción. PS - DF
 
 PROMOCION = 7-10 - APROBO
 ARPOBADO = 4-6 - APROBO
-NO APRO0BACION = 0 - 3 NO APROBO 
-"""
+NO APRO0BACION = 0 - 3 NO APROBO """
 
 contador = 0
 alumnos = int()

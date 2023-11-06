@@ -23,20 +23,30 @@ ARPOBADO = 4-6 - APROBO
 NO APRO0BACION = 0 - 3 NO APROBO 
 """
 
-contador = int()
+contador = 0
 alumnos = int()
 nota1 = int()
 nota2 = int()
 nota3 = int()
 promedio = float()
 
-alumnos = int(print("Ingrese la cantidad de alumnos de la materia que tienen las 3 notas: "))
+alumnos = int(input("Ingrese la cantidad de alumnos de la materia que tienen las 3 notas: "))
 
-while contador <= alumnos:
+while contador < alumnos:
+    print("\n----------------------------------------------------\n")
     nota1 = int(input("Ingrese la primera nota 1-10: "))
     nota2 = int(input("Ingrese la segunda nota 1-10: "))
     nota3 = int(input("Ingrese la tercera nota 1- APROBÓ / 2- NO APROBÓ: "))
-    promedio = nota1+nota2/2
-    print(promedio)
-    if promedio >= 7 and nota3 == 1:
-        print("El alumno PROMOCIONÓ la materia")
+    
+    promedio = (nota1 + nota2) / 2
+    
+    print(f"PROMEDIO: {promedio}")
+    
+    if nota3 == 2 or promedio < 4:
+        print("El alumno NO APROBÓ la cursada.")
+    elif promedio >= 7:
+        print("El alumno PROMOCIONÓ la materia.")
+    elif promedio < 7 and promedio >= 4:
+        print("El alumno APROBÓ la cursada.")
+        
+    contador += 1
